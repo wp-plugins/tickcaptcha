@@ -7,7 +7,7 @@ Stable tag: /trunk/
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Our CAPTCHA is a widget that combines the sophistication of video that protects publishers from automated robot technology and provides an innovative method for publishers to monetize and brands to advertise. This takes a new turn on a mundane distorted text CAPTCHA process into a more interactive user experience whilst increasing the security of the authentication process.
+CAPTCHA with the sophistication of video that protects your website from SPAM. We take Human Verification to the next level.
 
 == Description ==
 
