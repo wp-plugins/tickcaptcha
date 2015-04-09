@@ -67,7 +67,7 @@ Try [a demo](http://www.boom-tick.com/demo/) of Tick Captcha on our site.
 = WHAT IS A CAPTCHA? = 
 A CAPTCHA (an acronym for "Completely Automated Public Turing test to tell Computers and Humans Apart") is a type of challenge-response test used in computing to determine whether or not the user is human. The traditional form of CAPTCHA requires that the user type the letters of a distorted image, sometimes with the addition of an obscured sequence of letters or digits that appears on the screen.
 
-=How does Tick Captcha work? =
+= How does Tick Captcha work? =
 Tick Captcha is a new human video verification widget by Boom Technologies. Tick Captcha uses the sophistication of video as a media to verify humans from bots. The user simply plays the video on the Tick Captcha widget, watches the video and answers a simple questions to verify that they are human.
 
 = How does the publisher make money? =
