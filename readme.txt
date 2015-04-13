@@ -26,7 +26,7 @@ Compatibility and Features:
 
 * Our CAPTCHA supports two operating modes: Flash and HTML5. HTML5 CAPTCHA mode is used in most modern browsers, such as Mozilla FireFox, Google Chrome, Safari, and also used in iPhone and iPad. The Flash mode has been developed to be used in Internet Explorer. While loading, CAPTCHA identifies its operating mode depending on the visitor's browser.
 
-[youtube https://www.youtube.com/watch?v=uc-A9g_BUC0]
+[youtube http://www.youtube.com/watch?v=uc-A9g_BUC0]
 
 == Installation ==
 
