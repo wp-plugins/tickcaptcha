@@ -102,6 +102,8 @@ Brands who are interested to leverage on the Tick Captcha advantage for advertis
 6. Contact Us Form
 
 == Changelog ==
+= 1.0.1 =
+* Some bugs fixed
 
 = 1.0.0 =
 * The first official release on WordPress.org
