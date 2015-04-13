@@ -3,7 +3,7 @@
 Plugin Name: TickCaptcha
 Plugin URI: http://www.boomvideo.com.au/
 Description: Adds Video Captcha anti-spam solution to WordPress on the comment form and registration form.
-Version: 1.0.0
+Version: 1.0.1
 Author: BOOM Technology
 Author URI: http://www.boomvideo.com.au/
 License: GNU GPL2
