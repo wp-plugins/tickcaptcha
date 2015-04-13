@@ -7,7 +7,7 @@ Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-CAPTCHA with the sophistication of video that protects your website from SPAM. We take Human Verification to the next level.
+Captcha with the sophistication of video advertising that protects your website from spam. Make money as we take human verification to the next level.
 
 == Description ==
 
@@ -25,6 +25,8 @@ Compatibility and Features:
 --------------------------
 
 * Our CAPTCHA supports two operating modes: Flash and HTML5. HTML5 CAPTCHA mode is used in most modern browsers, such as Mozilla FireFox, Google Chrome, Safari, and also used in iPhone and iPad. The Flash mode has been developed to be used in Internet Explorer. While loading, CAPTCHA identifies its operating mode depending on the visitor's browser.
+
+[youtube http://www.youtube.com/watch?v=1XNEmuAwp7E]
 
 == Installation ==
 
@@ -93,13 +95,12 @@ Brands who are interested to leverage on the Tick Captcha advantage for advertis
 
 
 == Screenshots ==
-
-1. Admin Plugin Settings Screen
-2. Login Form
-3. Registration Form
-4. Lost Password Form
-5. Comment Form
-6. Contact Us Form
+1. Login Form
+2. Registration Form
+3. Lost Password Form
+4. Comment Form
+5. Contact Us Form
+6. Installation—Admin Plugin Settings Screen
 
 == Changelog ==
 = 1.0.1 =
