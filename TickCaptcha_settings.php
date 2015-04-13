@@ -1,6 +1,6 @@
 <?php
 /*
-Version 1.0.0
+Version 1.0.1
 Author BOOM Technology
 Author URI http://boom-tick.com/
 License GNU GPL2
