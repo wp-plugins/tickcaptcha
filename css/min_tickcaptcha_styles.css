@@ -1,0 +1,84 @@
+.bvc_required{
+	color:#FF0000;
+}
+.bvc_pluginsettings {
+	background-color: #fff;
+	padding: 10px 0;
+	width: 100%;
+}
+.bvc_heading{
+    background-color: #27282B;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 61px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    width: 97%;
+}
+.boomlogo{
+	float:right;
+}
+.generalsettings{
+	padding: 10px 0;
+	font-size: 18px;
+	margin: 0;
+}
+.regsteps{
+	padding-top: 10px;
+	color: #8e5255;
+	font-weight: bold;
+}
+.copyright {
+    text-align: center
+}
+.bvcleft{
+	float:left;
+}
+.bvc_form_settings1{
+	background-color: #fff;
+	padding-left : 30px;
+}
+.bvc_form_settings1 #message{
+	margin: 0;
+    padding: 4px 0;
+}
+.bvc_form_settings2{
+	background-color: #FFF;
+	padding: 10px 0 0 30px;
+	margin-top: 30px
+}
+.bvc_comment{
+	color: #8e5255;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    width: 100%;
+}
+.bvc_comment span {
+	color : #000;
+	font-style: normal;
+}
+.bvc_comment div {
+	background-color: #eaeae8;
+	margin-top: 16px;
+	padding: 10px;
+}
+.bvc_checkboxtd{
+	width:2%;
+	vertical-align: top !important;
+	padding-right: 0 !important;
+}
+.bvc_texttd{
+	font-weight:bold;
+}
+.bvc_submit {
+	background-color: #000;
+    color: #fff;
+    font-weight: bold;
+   -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 12px 15px;
+	border: none;
+}
