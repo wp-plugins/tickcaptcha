@@ -392,7 +392,7 @@ function tickCaptcha_settings()
 {
 	global $TickCaptcha_path;
 	wp_enqueue_style('tickcaptchaStylesheet');
-	require_once($TickCaptcha_path.'/TickCaptcha_settings.php');
+	require_once('TickCaptcha_settings.php');
 }
 
 //uninstall plugin function
