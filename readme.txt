@@ -7,7 +7,7 @@ Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Captcha with the sophistication of video advertising that protects your website from spam. Make money as we take human verification to the next level.
+CAPTCHA with the sophistication of video advertising that protects your website from spam. Make money as we take human verification to the next level.
 
 == Description ==
 
