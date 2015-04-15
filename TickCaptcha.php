@@ -410,4 +410,25 @@ if(function_exists('register_uninstall_hook'))
 {
 	register_uninstall_hook(__FILE__, 'tickCaptcha_Uninstall');
 }
+//create setting check
+add_action('admin_notices', 'missing_keys_notice');
+function create_error_notice($message, $anchor = '') {
+        $options_url = admin_url(
+            'options-general.php?page=TickCaptcha') . $anchor;
+	$error_message = sprintf(__($message .
+            ' <a href="plugins.php?page=TickCaptcha" title="Tick CAPTCHA Options">Fix this</a>',
+            'tickcaptcha'));
+        echo '<div class="error"><p><strong>' . $error_message .
+            '</strong></p></div>';
+}
+
+function missing_keys_notice() {
+        global $tickcaptcha_vars;
+        if (empty($tickcaptcha_vars['tickcaptcha_GUID'])) {
+        	if(empty($_POST )){
+        		create_error_notice('Tick Captcha Unique Key is missing.');
+        	}
+            
+        }
+}
 ?>
