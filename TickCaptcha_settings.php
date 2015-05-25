@@ -32,8 +32,35 @@ if (isset($_POST['submit']))
 	{
 		$optionarray_update[$key] = str_replace('&quot;','"',trim($val));
 	}
+
+	if($boomguid != ""){
+		//pass data to CRM
+		$parm=$optionarray_update;
+		$parm['host']=$_SERVER['SERVER_NAME'];
+		pass_date($parm);	
+
+	}
+
 	update_option('tickcaptcha_vars_db', $optionarray_update);
+
+
 }
+
+function pass_date($parm){
+	$postdata = http_build_query($parm);
+	
+
+	$options = array( 'http' => array('header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+									  'method'  => 'POST',
+									  'content' => http_build_query($parm)));
+	
+
+	$link="http://boom.boomvideo.tv/alpha/test/formsubmit.php";
+	$context  = stream_context_create($options);
+	
+
+}
+
 $tickcaptcha_vars = get_option('tickcaptcha_vars_db');
 if(is_array($tickcaptcha_vars))
 {
@@ -55,7 +82,10 @@ if (function_exists('wp_cache_flush'))
 		</h2>
 	</div>
 	<div class="bvcleft">
+		
 		<form name="formsettings" action="<?php echo admin_url( 'plugins.php?page=TickCaptcha' );?>" method="post">
+		
+
 			<div class="bvc_form_settings1">
 				<?php if(!empty($_GET['showmessage'])) : ?>
 					<div id="message" class="updated fade"><p><strong><?php _e('To set up Tick Captcha and protect your WordPress forms, Please update the following settings.', 'tickcaptcha'); ?></strong></p></div>
